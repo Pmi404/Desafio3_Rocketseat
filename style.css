@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+h1, fieldset p, fieldset legend {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+}
+label, span header p {
+    font-family: "Poppins", sans-serif;
+    color: #4E4958;
+}
+label {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+}
+body{
+    margin: 0;
+    background-color: #E5E5E5;
+}
+body::before {
+    content: "";
+    width: 100%;
+    height: 368px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+}
+.page {
+    width: 750px;
+    margin: auto;
+}
+header {
+    width: 436px;
+    margin-top: 140px;
+    margin-bottom: 42px;
+    color: white;
+    font-size: 20px;
+}
+header h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+form {
+    border-radius: 8px 8px 0 0;
+    background-color: #FFFFFF;
+    min-height: 300px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+fieldset {
+    border: 0;
+}
+fieldset legend {
+    color: #535971;
+    padding-bottom: 16px;
+    width: 100%;
+    border-bottom: 1px solid #E6E6F0;
+    margin-bottom: 32px;
+    line-height: 34px;
+    font-size: 24px;
+    
+}
+span {
+    color: #a29eaa;
+    font-size: 12px;    
+    font-weight: 400;
+    line-height: 20px;
+}
+span:hover {
+    color: #38373a;
+    font-weight: 600;
+}
+label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    margin-bottom: 8px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.inputs input {
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background-color: #FAFAFC;
+    padding: 0 24px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7a7575;
+}
+.complete-name {
+    display: flex;
+    gap: 22px;
+}
+.complete-name div{
+    width: 100%;
+}
+
+.col-3 {
+    display: flex;
+    gap: 32px;
+}
+.col-3 > div:nth-child(1) {
+    width: 100%;
+}
+fieldset p {
+    color: #535971;
+}
+footer {
+    background-color: #535971;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 52px 71px;
+}
+.button {
+    border-radius: 20px;
+    border: none;
+    background-color: #FF5374;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 26px;
+    height: 55px;
+}
